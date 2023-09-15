@@ -1,0 +1,68 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff05;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(25px);
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+.score {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+.botoes is-success {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+#result {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+/* Estilização para a barra de navegação */
+.navbar.is-black {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Estilização para o link da barra de navegação */
+  .navbar-link {
+    color: #fff !important;
+  }
+  
+  /* Estilização para o link quando passa o mouse por cima */
+  .navbar-link:hover {
+    color: #ffdd57 !important;
+  }
+  
+  /* Estilização para o menu suspenso */
+  .navbar-dropdown {
+    background-color: #333;
+  }
+  
+  /* Estilização para os itens do menu suspenso */
+  .navbar-item {
+    color: #000000 !important;
+  }
+  
+  /* Estilização para os itens do menu suspenso quando passa o mouse por cima */
+  .navbar-item:hover {
+    background-color: #ffdd57 !important;
+    color: #333 !important;
+  }
+  

@@ -1,0 +1,52 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-ppt.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Pedra, Papel e Tesoura</title>
+</head>
+<body>
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Jogos Disponíveis
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a href="/index.html" class="navbar-item">
+                  Advinhe o número
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </nav>
+    <h1>Pedra, Papel e Tesoura</h1>
+    <div class="score">
+        <p>jogador: <span id="playerScore">0</span></p>
+        <p>Máquina: <span id="computerScore">0</span></p>
+    </div>
+    <div class="botoes">
+      <button class="button is-success" id=" pedra ">Pedra</button>
+      <button class="button is-success" id=" papel ">Papel</button>
+      <button class="button is-success" id=" tesoura ">Tesoura</button>
+    </div>
+    <div id="result">
+        <p>Escolha uma opção acima para começar o jogo!</p>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

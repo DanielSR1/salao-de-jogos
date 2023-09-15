@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advinhe o Número</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar is-black">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Jogos Disponíveis
+              </a>
+              
+              <div class="navbar-dropdown">
+                <a href="pedra-papel-tesoura.html" class="navbar-item">
+                  Pedra, Papel e Tesoura
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </nav>
+      </nav>
+  <h1>Advinhe o Número!</h1>
+  <p>Tente adivinhar o número entre 1 e 100:</p>
+  <input type="number" id="guess">
+  <button class="button is-success" onclick="checkGuess()">Verificar</button>
+  <p id="message"></p>
+  <p id="vida"></p>
+
+  <script src="/script.js"></script>
+</body>
+</html>

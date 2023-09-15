@@ -1,0 +1,78 @@
+/* Estilização para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilização para o cabeçalho */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilização para o parágrafo */
+p {
+  text-align: center;
+  color: #666;
+}
+
+/* Estilização para o campo de entrada e botão */
+#guess {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+}
+
+.button.is-success {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Estilização para a mensagem */
+#message {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+#vida{
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+
+}
+
+/* Estilização para a barra de navegação */
+.navbar.is-black {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilização para o link da barra de navegação */
+.navbar-link {
+  color: #fff !important;
+}
+
+/* Estilização para o link quando passa o mouse por cima */
+.navbar-link:hover {
+  color: #ffdd57 !important;
+}
+
+/* Estilização para o menu suspenso */
+.navbar-dropdown {
+  background-color: #333;
+}
+
+/* Estilização para os itens do menu suspenso */
+.navbar-item {
+  color: #000000 !important;
+}
+
+/* Estilização para os itens do menu suspenso quando passa o mouse por cima */
+.navbar-item:hover {
+  background-color: #ffdd57 !important;
+  color: #333 !important;
+}
